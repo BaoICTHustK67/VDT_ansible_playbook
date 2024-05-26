@@ -1,0 +1,7 @@
+docker_image: postgres:latest
+container_name: db_container
+port_mapping: "5432:5432"
+environment_variables:
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: postgres
+  POSTGRES_DB: flask_db

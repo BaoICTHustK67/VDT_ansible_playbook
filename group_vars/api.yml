@@ -1,0 +1,5 @@
+docker_image: baofci/app:latest
+container_name: api_container
+port_mapping: "4000:4000"
+environment_variables:
+  DATABASE_URL: postgres://postgres:postgres@3.82.23.147:5432/flask_db

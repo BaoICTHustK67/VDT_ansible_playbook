@@ -1,0 +1,5 @@
+docker_image: baofci/reactjs:latest
+container_name: web_container
+port_mapping: "5173:5173"
+environment_variables:
+  API_URL: http://54.91.133.49:8080
